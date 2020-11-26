@@ -1,0 +1,33 @@
+.footer {
+  height: 15%;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #222;
+  padding-top: 40px;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+.footer_link_comp {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+span {
+  margin: 20px;
+  padding-top: 10px;
+}
+.footer_backToTop {
+  position: flex;
+  left: 0;
+}
+.footer_backToTop:hover {
+  cursor: pointer;
+}
